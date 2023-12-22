@@ -1,0 +1,46 @@
+.nav-bar {
+display: flex;
+width: 1440px;
+align-items: center;
+justify-content: space-between;
+padding: 39px 80px;
+position: relative;
+}
+.nav-bar .text-wrapper {
+position: relative;
+width: fit-content;
+margin-top: -1px;
+font-family: "Basic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 22px;
+letter-spacing: 0;
+line-height: normal;
+}
+.nav-bar .frame {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 50px;
+position: relative;
+flex: 0 0 auto;
+}
+.nav-bar .page-wrapper {
+display: inline-flex;
+align-items: center;
+gap: 10px;
+position: relative;
+flex: 0 0 auto;
+}
+.nav-bar .page {
+position: relative;
+width: fit-content;
+margin-top: -1px;
+font-family: "Basic-Regular", Helvetica;
+font-weight: 400;
+color: #474747;
+font-size: 18px;
+text-align: center;
+letter-spacing: 0;
+line-height: normal;
+}
